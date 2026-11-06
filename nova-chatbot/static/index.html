@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nova · Widget preview</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: system-ui, sans-serif;
+           background: radial-gradient(900px 500px at 20% 10%, #16224d, transparent), #060a18; color: #e8eeff; text-align: center; padding: 24px; }
+    main { max-width: 640px; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); margin: 0 0 12px; }
+    p { color: #93a1c8; line-height: 1.7; }
+    code { background: rgba(255,255,255,.08); padding: 3px 8px; border-radius: 8px; color: #7dd3fc; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Nova widget preview</h1>
+    <p>The chat button is at the bottom-right corner. To add Nova to your portfolio, paste this line before <code>&lt;/body&gt;</code>:</p>
+    <p><code>&lt;script src="http://127.0.0.1:5000/static/widget.js" defer&gt;&lt;/script&gt;</code></p>
+  </main>
+  <script src="/static/widget.js" defer></script>
+</body>
+</html>
